@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Doutch_Account_App"
+             x:Class="Doutch_Account_App.MainPage">
+
+    <!-- "レイアウトのタイプ指定と使用領域の定義" -->
+    <StackLayout VerticalOptions="Center">
+        <Image Source = "Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\image\0730020001.jpg" />
+        <!-- "割り勘機能選択画面の表示 -->
+            <Button x:Name="king_Tell_Button" Text="大王に希望を伝える" Clicked="king_Tell_Button_Clicked" />
+            <Button x:Name="king_Entrust_Button" Text="大王に全てを委ねる" Clicked="king_Entrust_Button_Clicked" />
+            <Button x:Name="selection_Back_Buton" Text="戻る" Clicked="selection_Back_Clicked" />
+    </StackLayout>
+
+</ContentPage>
+
+    
+    

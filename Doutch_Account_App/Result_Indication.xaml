@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Doutch_Account_App.Result_Indication" >
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <StackLayout HorizontalOptions="Center">
+                
+                <!-- Place new controls here -->
+                <Label Text="計算結果"  />
+                <Label x:Name="Label1 " Text="大王降臨" />
+                <Label x:Name="Label2 " Text="割勘金額" />
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="Label10" Text="syatyou" />
+                    <Label x:Name="Label11" Text="金額" />
+                </StackLayout>
+                <Label x:Name="Label3 " Text="役職別割勘金額" />
+                <Label x:Name="Label4 " Text="合計金額" />
+                <StackLayout Orientation="Horizontal">
+                    <!-- top画面を開くボタン -->
+                    <Button x:Name="chengePageButton" Text="完了" />
+                    <!-- 前の画面を開くボタン -->
+                    <Button x:Name="chengePageBackButton" Text="やり直し" Clicked="ChangePage_Clicked_cal" />
+                </StackLayout>
+            </StackLayout>
+         </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\bin\Release\netstandard2.0\Doutch_Account_App.deps.json
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\bin\Release\netstandard2.0\Doutch_Account_App.dll
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\bin\Release\netstandard2.0\Doutch_Account_App.pdb
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Auto_Burden_Detemination_Screen.xaml.g.cs
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Doutch_Account_App.csproj.CoreCompileInputs.cache
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Doutch_Account_App.AssemblyInfoInputs.cache
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Doutch_Account_App.AssemblyInfo.cs
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Doutch_Account_App.dll
+C:\Users\inoue\source\repos\Doutch_Account_App\Doutch_Account_App\Doutch_Account_App\obj\Release\netstandard2.0\Doutch_Account_App.pdb

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Doutch_Account_App.Manual_Burden_Detemination_Screen">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--駅名入力欄のベース(内部はコードで動的に追加)-->
+            <StackLayout x:Name="inputElements" VerticalOptions="StartAndExpand" />
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="president_name" Text="社長"/>
+                    <Entry x:Name="president_count" Placeholder="人数は？" Keyboard="Numeric"/>
+                    <Entry x:Name="president_rate" Placeholder="割合は？" Keyboard="Numeric"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="department_name" Text="部長"/>
+                    <Entry x:Name="department_count" Placeholder="人数は？" Keyboard="Numeric"/>
+                    <Entry x:Name="department_rate" Placeholder="割合は？" Keyboard="Numeric"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="section_chief_name" Text="課長"/>
+                    <Entry x:Name="section_chief_count" Placeholder="人数は？" Keyboard="Numeric"/>
+                    <Entry x:Name="section_chief_rate" Placeholder="割合は？" Keyboard="Numeric"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="lead_name" Text="主任"/>
+                    <Entry x:Name="lead_count" Placeholder="人数は？" Keyboard="Numeric"/>
+                    <Entry x:Name="lead_rate" Placeholder="割合は？" Keyboard="Numeric"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="flat_employee_name" Text="平民"/>
+                    <Entry x:Name="flat_employee_count" Placeholder="人数は？" Keyboard="Numeric"/>
+                    <Entry x:Name="flat_employee_rate" Placeholder="割合は？" Keyboard="Numeric"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Label x:Name="count_sum" Text="人数合計"/>
+                    <Entry x:Name="count_sum_entry" Placeholder="合計人数"/>
+                    <Label x:Name="total_amount" Text="総額"/>
+                    <Entry x:Name="total_amount_entry" Placeholder="支払総額"/>
+                </StackLayout>
+                <StackLayout Orientation = "Horizontal" VerticalOptions="EndAndExpand">
+                    <Button x:Name="rate_calculation" Text="大王にお任せ！！" Clicked ="Rate_auto_determining" />
+                </StackLayout>
+                <Button x:Name="calculating_feature" Text="大王降臨！！！" Clicked="Rate_calculation_Button_ClickedAsync"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
